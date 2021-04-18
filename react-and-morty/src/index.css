@@ -1,0 +1,77 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./image/backgi4.jpg);
+  background-color: #ffbe6aff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiAvatar-colorDefault svg,
+.MuiAvatar-colorDefault {
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+.makeStyles-resid-22,
+.makeStyles-resid-22 > span {
+  transition: 2s;
+  -webkit-transition: 2s;
+}
+
+.MuiAvatar-colorDefault:hover,
+.makeStyles-resid-22:hover {
+  transform: scale(1.2);
+}
+
+.MuiAvatar-colorDefault:hover > svg,
+.MmakeStyles-resid-22:hover > span {
+  color: black !important;
+}
+
+.makeStyles-root-11:hover > .makeStyles-cover-14 {
+  animation: around 15s linear infinite;
+}
+
+@keyframes around {
+  5% {
+    transform: rotate(0deg) scale(1);
+  }
+  47% {
+    transform: rotate(360deg) scale(0);
+  }
+  60% {
+    transform: rotate(-360deg) scale(0);
+  }
+}
+
+@keyframes spaces {
+  50% {
+    transform: rotate(-360deg);
+    right: 50%;
+  }
+  100% {
+    transform: rotate(-720deg);
+    right: 100%;
+  }
+}
+
+@keyframes turn {
+  100% {
+    transform: rotate(-13deg);
+    -webkit-transform: rotate(-13deg);
+  }
+}
